@@ -150,7 +150,7 @@ This method calculate the total price of orders, discounted using a certain sche
 
 We are going to add two items: Ayam Goreng (qty: 2, price: Rp20,000.0) and Pasta Gigi (qty: 3, price: Rp15,000.0)
 
-![alt text](https://github.com/muhammadalifaqsha/self-service-checkout/tree/main/Screenshots/Test1.png?raw=true)
+![alt text](https://github.com/muhammadalifaqsha/self-service-checkout/blob/main/Screenshots/Test1.png?raw=true)
 
 
 ## 6. Conclusions
