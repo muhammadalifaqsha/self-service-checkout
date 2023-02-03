@@ -9,8 +9,8 @@ We are going to build a simple code of self-service cashier system with the abil
 - Receive inputs of item (consisting of name, quantities, and price per qty)
 - Edit previous inputs of item (name, quantities, or price)
 - Remove some or all inputs of item
-- Check whether all inputs of item are correct at the end
-- Print the details of the shopping list (all items) and the price total (with a certain discount scheme)
+- Print the details of the shopping list (all items) and check whether all inputs of item are correct at the end
+- The price total (with a certain discount scheme)
 
 ## 3. What We Need
 
@@ -194,3 +194,13 @@ Now a warning message "Your transaction contains mistakes!" appears because our 
 
 
 ## 6. Conclusions
+
+We've (more or less) successfully created a simple code of self-service cashier system with the ability to
+
+- Receive inputs of item (consisting of name, quantities, and price per qty)
+- Edit previous inputs of item (name, quantities, or price)
+- Remove some or all inputs of item
+- Print the details of the shopping list (all items) and check whether all inputs of item are correct at the end
+- The price total (with a certain discount scheme)
+
+If we have more time and resources to further develop this code, we might built a (real-time) database of all available stocks in the supermarket and programme the system such that customers may only add available items from the database (and the price is automatically added from the database). Furthermore, we might also add another method in Transaction class to view a description of an item (alongside, perhaps, its picture).
