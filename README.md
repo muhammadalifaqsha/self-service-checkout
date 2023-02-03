@@ -117,14 +117,14 @@ This method deletes an item from .shopping_list
 2. Find item_name in .shopping_list
 3. Pop said item_name from .shopping_list
 
-### .reset_transaction
+### .reset_transaction()
 
 This method changes .shopping_list into an empty dictionary
 
 1. Input: -
 2. Change .shopping_list into an empty dictionary
 
-### .check_order
+### .check_order()
 
 This method prints out a tabulated version of .shopping_list (plus the total price for each item). If .shopping_list contains empty string or whitespace as one of its keys, or if it contains a non-positive number as one of its values, then a warning message "Your transaction contains mistakes" is also printed out.
 
@@ -132,7 +132,7 @@ This method prints out a tabulated version of .shopping_list (plus the total pri
 2. Tabulate & print the data on the shopping list, including the total price of each item (item_qty * item_price)
 3. If one of the keys in .shopping_list is empty string or whitespace, or one of the values includes a non-positive number, print a warning message: "Your transaction contains mistakes"
 
-### .total_price
+### .total_price()
 
 This method calculate the total price of orders, discounted using a certain scheme.
 
