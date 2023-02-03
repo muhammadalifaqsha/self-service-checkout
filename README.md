@@ -203,4 +203,4 @@ We've (more or less) successfully created a simple code of self-service cashier 
 - Print the details of the shopping list (all items) and check whether all inputs of item are correct at the end
 - The price total (with a certain discount scheme)
 
-If we have more time and resources to further develop this code, we might built a (real-time) database of all available stocks in the supermarket and programme the system such that customers may only add available items from the database (and the price is automatically added from the database). Furthermore, we might also add another method in Transaction class to view a description of an item (alongside, perhaps, its picture).
+If we have more time and resources to further develop this code, we might built a (real-time) database of all available stocks in the supermarket and program the system such that customers may only add available items from the database (and the price is automatically added from the database). Furthermore, we might also add another method in Transaction class to view a description of an item (alongside, perhaps, its picture).
