@@ -174,7 +174,7 @@ Our shopping cart is now empty.
 
 Suppose we've added back those two items, Ayam Goreng (qty: 2, price: Rp20,000.0) and Pasta Gigi (qty: 3, price: Rp15,000.0), with the addition of Mainan Mobil (qty: 1, price: Rp200,000.0) and Mi Instan (qty: 5, price: Rp3,000.0). Now we're going to check the total of our orders.
 
-<img src="https://github.com/muhammadalifaqsha/self-service-checkout/blob/main/Screenshots/Test4a.png?raw=true" width="700">
+<img src="https://github.com/muhammadalifaqsha/self-service-checkout/blob/main/Screenshots/Test4a.png?raw=true" width="800">
 
 Our shopping list totals to Rp285,000.0, including a discount of 5% (because our undiscounted total is larger than Rp200,000.0 but still no larger than Rp300,000.0 to get the 8% discount rate).
 
@@ -188,7 +188,7 @@ We may also look at the tabulated shopping list as follows.
 
 Suppose we add a '' (emptystring) item into the shopping list, and proceed to check our orders.
 
-<img src="https://github.com/muhammadalifaqsha/self-service-checkout/blob/main/Screenshots/Test5b.png?raw=true" width="700">
+<img src="https://github.com/muhammadalifaqsha/self-service-checkout/blob/main/Screenshots/Test5b.png?raw=true" width="800">
 
 Now a warning message "Your transaction contains mistakes!" appears because our cart contains an item with '' (emptystring) name.
 
