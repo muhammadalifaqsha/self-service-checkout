@@ -1,4 +1,4 @@
-# Python Mini-Project Pacmann - Self-Service Supermarket
+# Python Mini-Project at Pacmann - Self-Service Supermarket
 
 ## 1. Background
 
