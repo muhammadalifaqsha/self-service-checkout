@@ -1,4 +1,4 @@
-# Self-Service Supermarket Mini Project
+# Python Mini-Project Pacmann - Self-Service Supermarket
 
 ## 1. Background
 
@@ -77,14 +77,14 @@ Instead of putting the "try" and "except" cases in the methods, we put it inside
 
 The code flow & explanation for each method in class Transaction is as follows.
 
-### .add_item()
+### .add_item([item_name, item_qty, item_price])
 
 This method adds a new item into the object attribute .shopping_list, a dictionary with item names as keys, and their quantity and prices as values. 
 
 1. Input: item_name, item_qty, item_price
 2. Append item_name: [item_qty, item_price] into .shopping_list
 
-### .update_item_name()
+### .update_item_name(old_item_name, new_item_name)
 
 This method edits an item name in .shopping_list.
 
@@ -93,7 +93,7 @@ This method edits an item name in .shopping_list.
 3. Pop old_item_name from .shopping_list
 4. Add new_item_name as key to .shopping_list with previously saved value [item_qty, item_price]
 
-### .update_item_qty()
+### .update_item_qty(item_name, new_qty)
 
 This method edits the quantity of an item in .shopping_list
 
@@ -101,7 +101,7 @@ This method edits the quantity of an item in .shopping_list
 2. Find item_name in .shopping_list
 3. Change the first entry of the value into new_qty
 
-### .update_item_price()
+### .update_item_price(item_name, new_price)
 
 This method edits the price of an item in .shopping_list
 
@@ -109,7 +109,7 @@ This method edits the price of an item in .shopping_list
 2. Find item_name in .shopping_list
 3. Change the second entry of the value into new_price
 
-### .delete_item()
+### .delete_item(item_name)
 
 This method deletes an item from .shopping_list
 
